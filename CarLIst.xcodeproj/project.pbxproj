@@ -12,6 +12,8 @@
 		97ED7A82289EDBF1007AA669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97ED7A81289EDBF1007AA669 /* Assets.xcassets */; };
 		97ED7A85289EDBF1007AA669 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97ED7A84289EDBF1007AA669 /* Preview Assets.xcassets */; };
 		97ED7A91289EDDB6007AA669 /* car_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 97ED7A90289EDDB6007AA669 /* car_list.json */; };
+		97ED7A93289EE096007AA669 /* CarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ED7A92289EE096007AA669 /* CarDetails.swift */; };
+		97ED7A95289EE2C0007AA669 /* DataParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ED7A94289EE2C0007AA669 /* DataParsing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		97ED7A81289EDBF1007AA669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97ED7A84289EDBF1007AA669 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		97ED7A90289EDDB6007AA669 /* car_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car_list.json; sourceTree = "<group>"; };
+		97ED7A92289EE096007AA669 /* CarDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetails.swift; sourceTree = "<group>"; };
+		97ED7A94289EE2C0007AA669 /* DataParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParsing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 		97ED7A8B289EDC60007AA669 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				97ED7A92289EE096007AA669 /* CarDetails.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 		97ED7A8F289EDD8B007AA669 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				97ED7A94289EE2C0007AA669 /* DataParsing.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -181,7 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97ED7A93289EE096007AA669 /* CarDetails.swift in Sources */,
 				97ED7A80289EDBEC007AA669 /* CarListView.swift in Sources */,
+				97ED7A95289EE2C0007AA669 /* DataParsing.swift in Sources */,
 				97ED7A7E289EDBEC007AA669 /* CarLIstApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
