@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct CarLIstApp: App {
+struct CarListApp: App {
+    @State var details = CarDetailsModel()
+    
     var body: some Scene {
         WindowGroup {
             CarListView()
+                .environmentObject(details)
         }
     }
 }

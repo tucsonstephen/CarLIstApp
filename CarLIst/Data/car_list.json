@@ -1,13 +1,15 @@
 [{
+    "image": "range-rover",
     "consList":["Bad direction"],
     "customerPrice":120000.0,
     "make":"Land Rover",
     "marketPrice":125000.0,
     "model":"Range Rover",
     "prosList":["You can go everywhere","Good sound system"],
-    "rating":3\}
+    "rating":3}
     ,
     {
+    "image": "roadster",
     "consList":["Sometime explode"],
     "customerPrice":220000.0,
         "make":"Alpine","marketPrice":225000.0,
@@ -16,6 +18,7 @@
         "rating":4}
     ,
     {
+        "image": "3300i",
         "consList":["You can heard the engine over children cry at the back","","You may lose this one if you divorce"],
         "customerPrice":65000.0,
         "make":"BMW",
@@ -25,6 +28,7 @@
         "rating":5}
     ,
     {
+        "image": "gle-coupe",
         "consList":["You may lose a wheel","Expensive maintenance"],
         "customerPrice":95000.0,
         "make":"Mercedes Benz",
