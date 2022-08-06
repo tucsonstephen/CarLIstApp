@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		97ED7A7E289EDBEC007AA669 /* CarLIstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ED7A7D289EDBEC007AA669 /* CarLIstApp.swift */; };
-		97ED7A80289EDBEC007AA669 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ED7A7F289EDBEC007AA669 /* ContentView.swift */; };
+		97ED7A80289EDBEC007AA669 /* CarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ED7A7F289EDBEC007AA669 /* CarListView.swift */; };
 		97ED7A82289EDBF1007AA669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97ED7A81289EDBF1007AA669 /* Assets.xcassets */; };
 		97ED7A85289EDBF1007AA669 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97ED7A84289EDBF1007AA669 /* Preview Assets.xcassets */; };
+		97ED7A91289EDDB6007AA669 /* car_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 97ED7A90289EDDB6007AA669 /* car_list.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		97ED7A7A289EDBEC007AA669 /* CarLIst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarLIst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97ED7A7D289EDBEC007AA669 /* CarLIstApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarLIstApp.swift; sourceTree = "<group>"; };
-		97ED7A7F289EDBEC007AA669 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97ED7A7F289EDBEC007AA669 /* CarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListView.swift; sourceTree = "<group>"; };
 		97ED7A81289EDBF1007AA669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97ED7A84289EDBF1007AA669 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97ED7A90289EDDB6007AA669 /* car_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car_list.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,11 @@
 			isa = PBXGroup;
 			children = (
 				97ED7A7D289EDBEC007AA669 /* CarLIstApp.swift */,
-				97ED7A7F289EDBEC007AA669 /* ContentView.swift */,
+				97ED7A8C289EDC6D007AA669 /* Views */,
+				97ED7A8D289EDC74007AA669 /* ModelViews */,
+				97ED7A8B289EDC60007AA669 /* Models */,
+				97ED7A8E289EDD83007AA669 /* Data */,
+				97ED7A8F289EDD8B007AA669 /* Resources */,
 				97ED7A81289EDBF1007AA669 /* Assets.xcassets */,
 				97ED7A83289EDBF1007AA669 /* Preview Content */,
 			);
@@ -65,6 +71,43 @@
 				97ED7A84289EDBF1007AA669 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97ED7A8B289EDC60007AA669 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		97ED7A8C289EDC6D007AA669 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97ED7A7F289EDBEC007AA669 /* CarListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		97ED7A8D289EDC74007AA669 /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		97ED7A8E289EDD83007AA669 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				97ED7A90289EDDB6007AA669 /* car_list.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		97ED7A8F289EDD8B007AA669 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97ED7A85289EDBF1007AA669 /* Preview Assets.xcassets in Resources */,
+				97ED7A91289EDDB6007AA669 /* car_list.json in Resources */,
 				97ED7A82289EDBF1007AA669 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97ED7A80289EDBEC007AA669 /* ContentView.swift in Sources */,
+				97ED7A80289EDBEC007AA669 /* CarListView.swift in Sources */,
 				97ED7A7E289EDBEC007AA669 /* CarLIstApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct CarLIstApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CarListView()
         }
     }
 }
