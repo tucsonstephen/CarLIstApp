@@ -21,31 +21,10 @@ struct CarListView: View {
             ScrollView {
                 LazyVStack (alignment: .leading) {
                     
-                    ForEach (model.cars) { d in
+                    ForEach (model.cars) { car in
                         
-                        HStack (alignment: .top) {
-                            Image(d.image!)
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 150, height: 150)
-                                .clipped()
-
-                            VStack (alignment: .leading) {
-                                let name = d.make! + " " + d.model!
-                                Text(name)
-                                    .bold()
-                                    .font(.title2)
-                                    .padding(.bottom, 5)
-                                
-                                let price = d.customerPrice?.formatted(.currency(code: "USD"))
-                                Text(price!)
-                                    .font(.subheadline)
-                                Text("Rating: \(String(d.rating ?? 0))/5")
-                                    .font(.subheadline)
-
-                            }
-                        }
-                        .cornerRadius(20)
+                        CarDetailsCard(car: car)
+                        
                     }
                 }
             }

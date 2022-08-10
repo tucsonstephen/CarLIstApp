@@ -11,7 +11,7 @@ class CarDetails: Identifiable, Decodable {
     
     var id: UUID?
     var image: String?
-    var conList: [String]?
+    var consList: [String]?
     var customerPrice: Double?
     var make: String?
     var marketPrice: Double?
